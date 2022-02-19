@@ -1,0 +1,60 @@
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-flow: row wrap;
+    background-color: white;
+    border: 2px hidden black;
+    margin: 0;
+    padding: 0.4%;
+    gap: 5px;
+    flex: 1 0 auto;
+    width: 80%;
+    background-color: rgba(71, 66, 66, 0.397);
+    border-radius: 10%;
+}
+
+.row:hover {
+    background-color: rgba(109, 107, 107, 0.596);
+}
+
+.form-control {
+    flex: 1 0 auto;
+    cursor: pointer;
+}
+
+p {
+    align-self: center;
+    text-align: left;
+    border: solid 3px rgba(241, 198, 5, 0.966);
+    padding: 10px;
+    margin: 5%;
+    border-style: groove;
+    flex: 1 0 auto;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: space-around;
+    flex-direction: column;
+    gap: 10%;
+}
+
+#font-size {
+    border: solid 3px black;
+    width: 50%;
+}
+
+.col {
+    text-align: center;
+    flex-basis: auto;
+}
+
+input[type="range"] {
+    display: block;
+    margin-right: 2em;
+    color: blueviolet;
+}
